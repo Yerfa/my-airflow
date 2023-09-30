@@ -1,3 +1,10 @@
+# Cache
+airflow/dags/__pycache__
+airflow/logs
+
+# Configuration
+# configurationFile.ini
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
