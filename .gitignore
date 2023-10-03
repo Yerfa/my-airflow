@@ -3,7 +3,7 @@ airflow/dags/__pycache__
 airflow/logs
 
 # Configuration
-# configurationFile.ini
+configurationFile.ini
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
