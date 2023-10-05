@@ -1,5 +1,4 @@
 import psycopg2
-import configparser
 import logging
 
 from utils import get_config
@@ -33,5 +32,5 @@ def postgresSQuery(postgresdb, action, sql):
                 raise err
             
 
-sql = "SELECT first_name, last_name FROM test.split_name;"
-print(postgresSQuery('postgresdb.study', 'get', sql))
+# sql = "SELECT first_name, last_name FROM test.split_name;"
+# print(postgresSQuery('postgresdb.study', 'get', sql))

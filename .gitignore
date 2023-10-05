@@ -1,9 +1,19 @@
 # Cache
 airflow/dags/__pycache__
 airflow/logs
+airflow/airflow-scheduler.err
+airflow/airflow-scheduler.out
+airflow/airflow-scheduler.pid
+airflow/airflow-webserver.pid
+airflow/airflow-worker.err
+airflow/airflow-worker.out
+airflow/airflow-worker.pid
+airflow/airflow-webserver-monitor.pid
+airflow/airflow-webserver.out
+airflow/airflow-webserver.err
 
 # Configuration
-configurationFile.ini
+airflow/dags/conf/airflowconf.ini
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
